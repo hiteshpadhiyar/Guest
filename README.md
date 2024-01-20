@@ -12,7 +12,7 @@
 <ul>
 <li>- Using this, I implemented certain endpoints specified in the test with security authentication.</li>
 <li>- Due to timing constraints, validations were not added.</li>
-<ul>
+</ul>
 
 <p>When you Run project kindly make sure to trust the ASP.NET Core SSL Certificate</p>
 <p>
