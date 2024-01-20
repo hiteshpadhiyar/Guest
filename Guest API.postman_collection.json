@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "265abd0b-a6e4-4e01-985d-d28b3e368033",
+		"name": "Guest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32462711",
+		"_collection_link": "https://www.postman.com/hiteshflp/workspace/guestapi/collection/32462711-265abd0b-a6e4-4e01-985d-d28b3e368033?action=share&source=collection_link&creator=32462711"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7239/api/guests",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7239/api/guests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests",
+						"c91651fd-ca1d-41f7-a08a-f334cbfba3e4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7239/api/guests",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Mrs\",\r\n    \"firstName\": \"sdfdsf\",\r\n    \"lastName\": \"fsdfdfds\",\r\n    \"birthDate\": \"2024-01-20T00:00:00\",\r\n    \"email\": \"test@test1.com\",\r\n    \"phone_Numbers\": [\r\n      \"4545454442\",\"4545454440\"\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7239/api/guests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7239/api/guests",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"84255d8c-bcb2-4ba7-a106-4f164de7395f\",\r\n    \"title\": \"Mrs\",\r\n    \"firstName\": \"sdfdsf\",\r\n    \"lastName\": \"fsdfdfds\",\r\n    \"birthDate\": \"2024-01-20T00:00:00\",\r\n    \"email\": \"test@test1.com\",\r\n    \"phone_Numbers\": [\r\n      \"4545454442\",\r\n      \"4545454440\"\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7239/api/guests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7239/api/guests/cf0aadf9-eb13-403e-9d54-10b0b0a5cb75",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7239/api/guests/cf0aadf9-eb13-403e-9d54-10b0b0a5cb75",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests",
+						"cf0aadf9-eb13-403e-9d54-10b0b0a5cb75"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7239/api/guests/addphonenumbers",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "ApiAccessKey",
+						"value": "teeg_guest_api_key",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"84255d8c-bcb2-4ba7-a106-4f164de7395f\",\r\n    \"phone_Numbers\": [\r\n      \"4545454449\",\r\n      \"4545454456\"\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7239/api/guests/addphonenumbers",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7239",
+					"path": [
+						"api",
+						"guests",
+						"addphonenumbers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

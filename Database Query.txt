@@ -1,0 +1,10 @@
+CREATE TABLE Guests
+(
+	Id UNIQUEIDENTIFIER PRIMARY KEY default NEWID(),
+	Title VARCHAR (4),
+	FirstName VARCHAR (100) NOT NULL,
+	LastName VARCHAR (100),
+	BirthDate date,
+	Email VARCHAR (100) NOT NULL UNIQUE,
+	PhoneNumbers VARCHAR(max) NOT NULL
+)
