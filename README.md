@@ -22,16 +22,18 @@ yes
 <p>Header Value - teeg_guest_api_key</p>
 
 
-<p><b>GUEST ENDPOINTS - N TIER ARCHITECTURE</b>b></p>
-GET  	- ALL GUEST 	- https://localhost:7239/api/guests
-GET  	- GUEST BY ID  	- https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4
-POST 	- NEW GUEST  	- https://localhost:7239/api/guests
-PUT  	- UPDATE GUEST 	- https://localhost:7239/api/guests
-DELETE 	- DELETE GUEST 	- https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4
-POST 	- ADD NEW PHONE - https://localhost:7239/api/guests/addphonenumbers
-
+<p><b>GUEST ENDPOINTS - N TIER ARCHITECTURE</b></p>
+<ul>
+<li>GET  	- ALL GUEST 	- https://localhost:7239/api/guests</li>
+<li>GET  	- GUEST BY ID  	- https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4</li>
+<li>POST 	- NEW GUEST  	- https://localhost:7239/api/guests</li>
+<li>PUT  	- UPDATE GUEST 	- https://localhost:7239/api/guests</li>
+<li>DELETE 	- DELETE GUEST 	- https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4</li>
+<li>POST 	- ADD NEW PHONE - https://localhost:7239/api/guests/addphonenumbers</li>
+  <ul>
 <p><b>GUEST ENDPOINTS - CQRS PATTERN</b>b></p>
-GET  	- ALL GUEST 	- https://localhost:7239/api/guestscqrs
-GET  	- GUEST BY ID  	- https://localhost:7239/api/guestscqrs/c91651fd-ca1d-41f7-a08a-f334cbfba3e4
-POST 	- NEW GUEST  	- https://localhost:7239/api/guestscqrs
-POST 	- ADD NEW PHONE - https://localhost:7239/api/guestscqrs/addphone
+<li>GET  	- ALL GUEST 	- https://localhost:7239/api/guestscqrs</li>
+<li>GET  	- GUEST BY ID  	- https://localhost:7239/api/guestscqrs/c91651fd-ca1d-41f7-a08a-f334cbfba3e4</li>
+<li>POST 	- NEW GUEST  	- https://localhost:7239/api/guestscqrs</li>
+<li>POST 	- ADD NEW PHONE - https://localhost:7239/api/guestscqrs/addphone</li>
+  </ul>
