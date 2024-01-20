@@ -30,7 +30,7 @@ yes
 <li>PUT  	- UPDATE GUEST 	- https://localhost:7239/api/guests</li>
 <li>DELETE 	- DELETE GUEST 	- https://localhost:7239/api/guests/c91651fd-ca1d-41f7-a08a-f334cbfba3e4</li>
 <li>POST 	- ADD NEW PHONE - https://localhost:7239/api/guests/addphonenumbers</li>
-  
+   </ul>
 <p><b>GUEST ENDPOINTS - CQRS PATTERN</b></p><ul>
 <li>GET  	- ALL GUEST 	- https://localhost:7239/api/guestscqrs</li>
 <li>GET  	- GUEST BY ID  	- https://localhost:7239/api/guestscqrs/c91651fd-ca1d-41f7-a08a-f334cbfba3e4</li>
