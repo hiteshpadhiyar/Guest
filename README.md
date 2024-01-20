@@ -3,6 +3,17 @@
   <h3>A working ASP.NET Core Web API project implementing the CRUD operation for Guest entity.</h3>
 </div>
 
+<h3>I implemented this project utilizing two distinct architectures.</h3>
+
+<h3>1) N-Tier Architecture</h3>
+<p>  I successfully integrated all endpoints, including security authentication and validations.</p>
+
+<h3>2) CQRS PATTERN</h3>
+<ul>
+<li>- Using this, I implemented certain endpoints specified in the test with security authentication.</li>
+<li>- Due to timing constraints, validations were not added.</li>
+<ul>
+
 <p>When you Run project kindly make sure to trust the ASP.NET Core SSL Certificate</p>
 <p>
 1) Would you like to trust the ASP.NET Core SSL Certificate?
